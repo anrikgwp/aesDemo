@@ -16,6 +16,8 @@
 		413317AF236ACC1300ED182E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413317AE236ACC1300ED182E /* main.m */; };
 		413317B9236ACC1300ED182E /* AESDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413317B8236ACC1300ED182E /* AESDemoTests.m */; };
 		413317C4236ACC1300ED182E /* AESDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413317C3236ACC1300ED182E /* AESDemoUITests.m */; };
+		413317D3236ACC5800ED182E /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 413317D2236ACC5800ED182E /* NSString+AES.m */; };
+		413317D7236ACCAB00ED182E /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 413317D5236ACCAA00ED182E /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,11 @@
 		413317BF236ACC1300ED182E /* AESDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413317C3236ACC1300ED182E /* AESDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESDemoUITests.m; sourceTree = "<group>"; };
 		413317C5236ACC1300ED182E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413317D1236ACC5800ED182E /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		413317D2236ACC5800ED182E /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		413317D4236ACCAA00ED182E /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		413317D5236ACCAA00ED182E /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		413317D6236ACCAA00ED182E /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +117,11 @@
 				413317A0236ACC1000ED182E /* SceneDelegate.m */,
 				413317A2236ACC1000ED182E /* ViewController.h */,
 				413317A3236ACC1000ED182E /* ViewController.m */,
+				413317D1236ACC5800ED182E /* NSString+AES.h */,
+				413317D2236ACC5800ED182E /* NSString+AES.m */,
+				413317D6236ACCAA00ED182E /* GTMBase64.h */,
+				413317D5236ACCAA00ED182E /* GTMBase64.m */,
+				413317D4236ACCAA00ED182E /* GTMDefines.h */,
 				413317A5236ACC1000ED182E /* Main.storyboard */,
 				413317A8236ACC1300ED182E /* Assets.xcassets */,
 				413317AA236ACC1300ED182E /* LaunchScreen.storyboard */,
@@ -268,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				413317A4236ACC1000ED182E /* ViewController.m in Sources */,
+				413317D7236ACCAB00ED182E /* GTMBase64.m in Sources */,
 				4133179E236ACC1000ED182E /* AppDelegate.m in Sources */,
+				413317D3236ACC5800ED182E /* NSString+AES.m in Sources */,
 				413317AF236ACC1300ED182E /* main.m in Sources */,
 				413317A1236ACC1000ED182E /* SceneDelegate.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+AES.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSLog(@"%@",[@"v/iNlcj7TjFWo9QyMcGWafRPV4MDQspGMZgpSDL6Q58=" aci_decryptWithAES]);
+    
+    NSLog(@"%@",[@"15922872570#5T31RF69SSUS" aci_encryptWithAES]);
+    
 }
 
 
